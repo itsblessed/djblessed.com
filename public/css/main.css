@@ -1,16 +1,60 @@
 body {
-  background: url(/public/img/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #F4FAFF;
   background-repeat: no-repeat;
+  color: #4F5D75;
+}
+
+.nav-bar {
+  max-height: 70px;
+  min-height: 70px;
+  width: 100%;
+  background-color: #2F323A;
+  border-bottom: 1px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+}
+
+.nav-bar > ul {
+  text-align: center;
+  margin: 20 auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-bar > ul > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.nav-bar > ul > li > a {
+  color: #8F959A;
+  text-decoration: none;
+}
+
+.nav-bar > ul > li > a:hover {
+  color: #F4FAFF;
+  text-decoration: none;
 }
 
 .header {
   text-align: center;
-  margin: 50px auto;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .header_text {
-  width: 80%;
+  width: 50%;
+}
+
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  min-width: 400px;
+  width: 60%;
 }
 
 .tracks {
