@@ -1,18 +1,23 @@
 body {
-  background-color: #F4FAFF;
+  background-color: white;
   background-repeat: no-repeat;
   color: #4F5D75;
 }
 
+h2 {
+  color: #2F323A;
+}
+
 .nav-bar {
-  max-height: 70px;
-  min-height: 70px;
+  max-height: 50px;
+  min-height: 50px;
   width: 100%;
-  background-color: #2F323A;
-  border-bottom: 1px;
-  border-color: white;
+  background-color: #0D0B0B;
   position: fixed;
   top: 0px;
+  border-bottom: 1px solid #2F323A;
+  padding-bottom: 5px;
+  z-index: 10;
 }
 
 .nav-bar > ul {
@@ -41,20 +46,35 @@ body {
 
 .header {
   text-align: center;
-  margin: 0 auto;
-  margin-top: 80px;
+  margin: 0px;
+  top: 55px;
+  left: 0px;
+  right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0D0B0B;
+  position: fixed;
 }
 
 .header_text {
-  width: 50%;
+  height: 80px;
+}
+
+.rows {
+  margin: 0 auto;
+  margin-top: 180px;
+  display: block;
+  text-align: center;
 }
 
 .article {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  min-width: 400px;
-  width: 60%;
+  display: inline-block;
+  width: 40%;
+  min-width: 450px;
+  padding: 0 50px;
+  margin: 0 auto;
+  vertical-align: text-top;
+  text-align: justify;
 }
 
 .tracks {
@@ -89,6 +109,27 @@ body {
 
 .links > li {
   display: inline-block;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+  .rows {
+    width: 80%;
+  }
+
+  .article {
+    display: inline-block;
+    width: 70%;
+    min-width: 70%;
+    padding: 0 50px;
+    margin: 0 auto;
+    vertical-align: text-top;
+    text-align: justify;
+  }
+
+  .snapwidget-widget {
+    display: none;
+  }
 }
 
 /*! normalize.css v1.0.0 | MIT License | git.io/normalize */
