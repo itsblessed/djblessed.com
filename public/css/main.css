@@ -116,13 +116,15 @@ h2 {
   .rows {
     width: 80%;
   }
+  .nav-bar {
+    padding-bottom: 5px;
+  }
 
   .article {
     display: inline-block;
-    width: 70%;
     min-width: 70%;
-    padding: 0 50px;
     margin: 0 auto;
+    padding: 0;
     vertical-align: text-top;
     text-align: justify;
   }
