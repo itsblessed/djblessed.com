@@ -14,7 +14,7 @@ h2 {
   width: 100%;
   background-color: #0D0B0B;
   position: fixed;
-  top: 0px;
+  bottom: 0px;
   border-bottom: 1px solid #2F323A;
   padding-bottom: 5px;
   z-index: 10;
@@ -35,19 +35,19 @@ h2 {
 }
 
 .nav-bar > ul > li > a {
-  color: #8F959A;
+  color: #F4FAFF;
   text-decoration: none;
 }
 
 .nav-bar > ul > li > a:hover {
-  color: #F4FAFF;
+  color: #8F959A;
   text-decoration: none;
 }
 
 .header {
   text-align: center;
   margin: 0px;
-  top: 55px;
+  top: 0px;
   left: 0px;
   right: 0px;
   padding-top: 10px;
@@ -69,8 +69,7 @@ h2 {
 
 .article {
   display: inline-block;
-  width: 40%;
-  min-width: 450px;
+  width: 80%;
   padding: 0 50px;
   margin: 0 auto;
   vertical-align: text-top;
