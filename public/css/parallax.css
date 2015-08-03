@@ -107,12 +107,15 @@ a.btn-link, a.btn-link:link, a.btn-link:visited, a.btn-link:active {
   border: solid;
   color: white;
   text-decoration: none;
-  font-size: 35px;
+  font-weight: bold;
+  font-size: 32px;
   padding: 8px;
 }
 
 a.btn-link:hover {
-  color: #ccc;
+  color: black;
+  background-color: white;
+  border-color: white;
 }
 
 
@@ -164,7 +167,7 @@ a.btn-link:hover {
 #group5 {
   z-index: 3; /* slide over group 4 and 6 */
 }
-#group5 .parallax_layer--base {
+#group5 .parallax_layer--deep {
   background: url(/public/img/game_mixing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -172,10 +175,9 @@ a.btn-link:hover {
 }
 
 #group6 {
-  z-index: 2; /* slide under group 5 and 7 */
+  z-index: 4; /* slide under group 5 and 7 */
 }
-#group6 .parallax_layer--back {
-  background: rgb(245,235,100);
+#group6 .parallax_layer--fore {
 }
 
 #group7 {
