@@ -118,6 +118,14 @@ a.btn-link:hover {
   border-color: white;
 }
 
+a.icon, a.icon:link, a.icon:visited, a.icon:active {
+  color: black;
+  font-size: 48px;
+}
+
+a.icon:hover {
+  color: #ccc;
+}
 
 
 /* style the groups
