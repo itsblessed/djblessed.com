@@ -146,7 +146,7 @@ a.icon:hover {
   z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax_layer--back {
-  background-image: url(/public/img/bouncing.jpg);
+  background-image: url(/public/img/cannon_pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -156,7 +156,7 @@ a.icon:hover {
   z-index: 4; /* slide over group 2 and 4 */
 }
 #group3 .parallax_layer--base {
-  background-image: url(/public/img/cannon_pic.jpg);
+  background-image: url(/public/img/bouncing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
